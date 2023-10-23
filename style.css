@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.header {
+    background-color: whitesmoke; 
+    color: #48494b; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+}
+
+.logo {
+    width: 80px; 
+    height: 50; 
+    background: url('logo.png') center/cover no-repeat;
+}
+
+.brand-name{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.brand-name #name{
+        /* text-transform: lowercase; */
+}
+
+.brand-name #landing{
+    text-transform: none;
+    font-weight: 5px;
+    margin-left: 5px;
+    color: #BEBDB8
+}
+
+.contact{
+    display: flex;
+    text-transform: uppercase;
+}
+
+.contact #call{
+    margin-right: 10px;
+}
+
+.contact #number{
+    color: #d9dddc;
+}
+
+
+.banner{
+
+}
+
+.banner #slogan{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.banner h1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.banner img{
+    width:  100%;
+    height:auto;
+}
+
+
+.try-button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    font-size: 15px;
+    height: 100px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 50%;
+    text-transform: uppercase;
+    background-color: #3fd8fe;
+    margin: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.try-button .try-access{
+    justify-content: center;
+    align-items: center;
+    text-transform: lowercase;
+    margin-top: 10px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 20px;
+    gap: 20px;
+}
+
+.prod {
+    position: relative;
+    display: flex;
+    width: 500px;
+    /*height: 200px; */
+}
+
+.prod img{
+    width: 100px;
+    margin-right: 10px; 
+}
+
+.prod .prod-content{
+    width: 50%;
+}
+
+.prod-content {
+    width: 20%;
+    height: 100%;
+    top: 10%;
+    left: 60%;
+}
+
+.self-introduce{
+    font-size: 20px;
+    margin: 30px;
+}
+
+.self-introduce{
+    margin-bottom: 10px;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: grey;
+}
+
+.detail > i {
+    padding: 20px;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+
+.owner-name{
+    position: absolute;
+    right: 100px;
+}
+
+.footer{
+    display: block;
+    font-size: 20px;
+    background-color: grey;
+    border-top: 1px solid #000;
+}
+
+.footer .footer-content{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.footer-content .contact, 
+.footer-content .connect,
+.footer-content .design,
+.footer-content .map{
+    display: block;
+    margin: 20px;
+    font-size: 10px;
+}
+
+
+.connect i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.copy-right{
+    display: flex;
+    /* justify-content: space-between; */  
+    background: black;
+    padding: 20px;
+}
+
+.copyright-text{
+    color: whitesmoke;
+}
+
+.policy-text{
+    position: absolute;
+    color: white;
+    right: 5%;
+}
+
+.map img{
+    width: 200px;
+    height: 100px;
+    border:  1px solid #000;
+    border-radius: 5px;
+}
