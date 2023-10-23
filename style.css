@@ -7,10 +7,9 @@
 body{
     margin-left: 50px;
     margin-right: 50px;
-
 }
+
 .header {
-    background-color: whitesmoke; 
     color: #48494b; 
     display: flex;
     align-items: center;
@@ -36,10 +35,6 @@ body{
     margin-top: 10px;
 }
 
-.brand-name #name{
-        /* text-transform: lowercase; */
-}
-
 .brand-name #landing{
     text-transform: none;
     font-weight: 5px;
@@ -60,11 +55,6 @@ body{
     color: #d9dddc;
 }
 
-
-.banner{
-
-}
-
 .banner #slogan{
     font-size: 40px;
     margin: 20px;
@@ -79,7 +69,6 @@ body{
     width:  100%;
     height:auto;
 }
-
 
 .try-button{
     display: block;
